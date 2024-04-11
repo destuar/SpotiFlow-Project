@@ -29,7 +29,7 @@ Weekly Listening (# of Songs)
 Weekly Top Songs
 Total minutes listened
 
-### Define the metrics and explain any calculations
+### Define the metrics and explain any calculations.
 Energy Score
   - Weighted average of danceability, energy, and liveliness feature data
 Musicality Score
@@ -49,8 +49,8 @@ Total minutes listened
     
 ## How to Use the Dashboard
 The dashboard is publically available and has several "drill down" features.
-1. Select date to drill down and view listening a analytics for that day
-2. Drag the "Top Songs" slider to adjust the number of top songs that are viewable
+1. Select date to drill down and view listening a analytics for that day.
+2. Drag the "Top Songs" slider to adjust the number of top songs that are viewable.
 
 ##How to Refresh the Data
 Data must be refreshed manually.
