@@ -1,27 +1,27 @@
-#Weekly Wrapped // Your Listening Analytics
+# Weekly Wrapped // Your Listening Analytics
 
-##Purpose:
+## Purpose:
 In response to Spotify's "Wrapped" and its subsequent success and impact on engagement, we developed Spotiflow, a feature within the Spotify application aimed at allowing users to visualize their recent listening trends—dubbed their 'vibe'—and share these insights with friends.
 
-##Audience:
+## Audience:
 The SpotiFlow weekly wrapped user dashboard was created to enhance the Spotify user experience by providing more personalized and frequent insights into users’ listening habits.
 
-###How does the dashboard address the business problem?
+### How does the dashboard address the business problem?
 The dashboard allows users to interact with their previous listening data on a much more relevant, recent, and granular level. Because of this, we expect that weekly wrapped will boost engagement. 
 
-###Identify the business process that utilizes the dashboard for decision making.
+### Identify the business process that utilizes the dashboard for decision making.
 User recent listening data retrieved from Spotify API using Python.
 
-Which decisions are influenced by the dashboard?
+### Which decisions are influenced by the dashboard?
+Users can use this dashboard to view their recent listening history and SpotiFlow can leverage this user data to create predictive recommendations.
 
-
-##Access:
+## Access:
 https://public.tableau.com/app/profile/diego.estuar/viz/SpotiFlowUserDashboard/SpotiFlowWeeklyWrapped
 
-##Data Source(s):
+## Data Source(s):
 User recent listening data retrieved from Spotify API using Python.
 
-##Key Metrics:
+## Key Metrics:
 Energy Score
 Musicality Score
 Listening Vibe
@@ -29,7 +29,7 @@ Weekly Listening (# of Songs)
 Weekly Top Songs
 Total minutes listened
 
-###Define the metrics and explain any calculations
+### Define the metrics and explain any calculations
 Energy Score
   - Weighted average of danceability, energy, and liveliness feature data
 Musicality Score
@@ -47,7 +47,7 @@ Weekly Top Songs
 Total minutes listened
   - Sum of minutes listened
     
-##How to Use the Dashboard
+## How to Use the Dashboard
 The dashboard is publically available and has several "drill down" features.
 1. Select date to drill down and view listening a analytics for that day
 2. Drag the "Top Songs" slider to adjust the number of top songs that are viewable
