@@ -32,18 +32,23 @@ Total minutes listened
 ## Define the metrics and explain any calculations.
 Energy Score
   - Weighted average of danceability, energy, and liveliness feature data
+    
 Musicality Score
   - Weighted average of acousticness and instrumentalness feature  data
+    
 Listening Vibe
   - If the average valence feature data is:
         < 25%, "Is Everything Okay?"
         25% - 50%, "Slightly Sad"
         50% - 75%, "Feeling Great"
         > 75%, "A Little Too Happy"
+
 Weekly Listening (# of Songs)
   - Count of songs by date
+    
 Weekly Top Songs
-  - Count of total songs listened for dater ange
+  - Count of total songs listened for date range
+    
 Total minutes listened
   - Sum of minutes listened
     
