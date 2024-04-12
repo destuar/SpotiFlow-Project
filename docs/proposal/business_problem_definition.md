@@ -7,6 +7,7 @@ Spotify experiences significant user engagement during the annual release of Spo
 
 ### Business Activity Category
 - **Primary Category**: Strategy
+- D06: Deeper insights into attiduinal sector trends.
 
 ### OKR (Objectives and Key Results)
 - **Objective**: Increase weekly user engagement through personalized, data-driven insights.
@@ -16,7 +17,7 @@ Spotify experiences significant user engagement during the annual release of Spo
   3. Increase user session time by 15% for users utilizing the feature.
 
 ### OKR Initiatives
-- Develop and launch the Weekly Wrap feature.
+- Develop and launch the Weekly Wrap feature utilizing the available user data already established. 
 - Create marketing campaigns to promote awareness of the new feature.
 - Implement feedback loops to continuously improve the feature based on user input.
 
@@ -55,12 +56,10 @@ Spotify experiences significant user engagement during the annual release of Spo
 
 ### Data Mining Goals
 - **Data Activities**:
-  - Data Reporting
-  - Data Visualization
-  - Predictive Analytics
+- F02: Increased use of internal data. 
 
 ### Data Mining Success Criteria
-- Successful deployment of the Weekly Wrap feature.
+- Successful deployment of the Weekly Wrap feature using already available user data.
 - Positive user feedback and engagement metrics post-launch.
 
 ## Produce Project Plan
