@@ -6,8 +6,7 @@
 Spotify experiences significant user engagement during the annual release of Spotify Wrapped. To leverage the popularity and engagement driven by Spotify Wrapped, Spotify aims to introduce a weekly wrap feature. This will provide users with personalized insights on their music listening habits more frequently, thereby increasing user engagement throughout the year.
 
 ### Business Activity Category
-- **Primary Category**: Marketing
-- **Secondary Category**: Customer Service
+- **Primary Category**: Strategy
 
 ### OKR (Objectives and Key Results)
 - **Objective**: Increase weekly user engagement through personalized, data-driven insights.
