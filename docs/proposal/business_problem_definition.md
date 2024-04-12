@@ -24,9 +24,12 @@ Spotify experiences significant user engagement during the annual release of Spo
 
 ### Inventory of Resources
 - **Personnel**:
-  - Jane Doe, Data Scientist
-  - John Smith, Data Analyst
-  - Emily Johnson, Data Engineer
+  - Riley Nickel, Data Scientist
+  - Andrew Morris, Data Engineer
+  - Diego Estuar, Data Engineer
+  - Lance Royston, Chief Marketing Officer
+  - Aaron Sornborger, Sentiment Analyst 
+    
 - **Data**: User listening habits, interaction logs, feedback data.
 - **Computing Resources**: AWS cloud services.
 - **Software**: Spotify API, Tableau, AWS Database Services.
