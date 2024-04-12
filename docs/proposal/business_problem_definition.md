@@ -11,8 +11,8 @@ Spotify experiences significant user engagement during the annual release of Spo
 ### OKR (Objectives and Key Results)
 - **Objective**: Increase weekly user engagement through personalized, data-driven insights.
 - **Key Results**:
-  1. Achieve a 20% increase in weekly active users interacting with the new feature.
-  2. Reduce churn rate by 10% among users engaged with weekly wrap.
+  1. Achieve a 5% increase in weekly active users interacting with the new feature.
+  2. Reduce churn rate by 7% among users engaged with weekly wrap.
   3. Increase user session time by 15% for users utilizing the feature.
 
 ### OKR Initiatives
