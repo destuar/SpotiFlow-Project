@@ -20,6 +20,7 @@ with the content more either by searching the recommending songs or listening to
 
 ### Randomization Process
 - Users will be randomly assigned to either the control or experimental group upon logging into the platform to ensure unbiased distribution and valid test results.
+- We will make sure that the split is 50/50 in order to reduce the variance. 
 
 ### Duration of the Experiment
 - The experiment will last for 30 days to collect enough data and observe any significant changes in user behavior.
