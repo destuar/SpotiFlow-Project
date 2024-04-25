@@ -23,10 +23,15 @@ User data is aggregated through Spotify's API, feeding into predictive algorithm
 
 ## Key Metrics:
 Predicted vs Actual Feature Similarity shows the difference in audio features between recommended songs and target song.
+
 Audio Feature Time Series highlights change over time for Energy, Musicality, and Positivity by day.
+
 Energy and Musicality Scores are based on aggregated audio features.
+
 Positivity Score is based on valence audio features.
+
 Listening Vibe reflects mood trends derived from valence data.
+
 Weekly Listening and Top Songs are quantified to gauge user engagement levels.
 
 ## Define the metrics and explain any calculations.
@@ -69,62 +74,3 @@ Data can refresh live if connected to AWS database.
 2. Python to AWS
 3. AWS to Tableau Prep
 4. Tableau Dashboard
-
-
-
-
-In response to Spotify's "Wrapped" and its subsequent success and impact on engagement, we developed Spotiflow, a feature within the Spotify application aimed at allowing users to visualize their recent listening trends—dubbed their 'vibe'—and share these insights with friends.
-
-
-The SpotiFlow weekly wrapped user dashboard was created to enhance the Spotify user experience by providing more personalized and frequent insights into users’ listening habits. By providing users with personalized analytics on a weekly basis, it caters to an audience that values understanding their music consumption patterns. This frequent, personalized insight helps users to see how their tastes evolve over time and encourages deeper interaction with the Spotify platform. The dashboard is designed for users who enjoy reflecting on their music choices, discovering trends in their listening habits, and sharing these insights with friends, thereby making the Spotify experience more engaging and communal.
-
-
-The introduction of SpotiFlow's weekly wrapped dashboard is a strategic move to enhance user engagement with the Spotify platform. By allowing users to interact with their recent listening data at a detailed level, the dashboard makes the experience more relevant and personalized. This relevance is expected to increase user interaction with the platform, as users are likely to spend more time exploring their listening habits and discovering new music through personalized recommendations. The dashboard not only keeps users engaged but also encourages them to return to the platform regularly to check their latest insights, thereby increasing the frequency of engagement.
-
-
-The dashboard plays a critical role in the business process of enhancing customer engagement. By providing weekly insights into listening habits, it keeps the platform dynamic and interactive. This ongoing engagement feeds into Spotify’s larger strategy of retaining users and increasing the time they spend on the platform. From a business perspective, the dashboard serves as a tool for collecting data on user preferences, which can then be analyzed to fine-tune recommendation algorithms, improving the overall user experience and satisfaction.
-
-
-The SpotiFlow dashboard influences both user and business decisions. On the user side, insights from the dashboard can lead to decisions about exploring new genres, artists, or playlists based on their weekly listening vibes and top songs. This self-reflection on music preferences can enrich the user's listening experience and encourage the exploration of Spotify's vast library.
-
-On the business side, SpotiFlow leverages the data gathered from user interactions with the dashboard to make decisions regarding predictive recommendations. By understanding patterns in listening habits, Spotify can tailor its music recommendations more accurately, thus enhancing the personalization of the user experience. This data-driven approach to recommendations supports Spotify's objective of being the most personalized music service, ensuring that users continually discover music that resonates with their tastes and moods.
-
-
-https://public.tableau.com/app/profile/diego.estuar/viz/SpotiFlowUserDashboard/SpotiFlowWeeklyWrapped
-
-
-User recent listening data retrieved from Spotify API using Python.
-
-
-Energy Score
-Musicality Score
-Listening Vibe
-Weekly Listening (# of Songs)
-Weekly Top Songs
-Total minutes listened
-
-
-Energy Score
-  - Weighted average of danceability, energy, and liveliness feature data
-    
-Musicality Score
-  - Weighted average of acousticness and instrumentalness feature  data
-    
-Listening Vibe
-  - If the average valence feature data is:
-        < 25%, "Is Everything Okay?"
-        25% - 50%, "Slightly Sad"
-        50% - 75%, "Feeling Great"
-        > 75%, "A Little Too Happy"
-
-Weekly Listening (# of Songs)
-  - Count of songs by date
-    
-Weekly Top Songs
-  - Count of total songs listened for date range
-    
-Total minutes listened
-  - Sum of minutes listened
-
-
-
